@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>国外电影</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+    	*{
+    		padding:0;
+    		margin:0;
+    		background-color: Lavender;
+    	}
+    	a{
+			text-decoration: none;
+		}
+		.emm{
+		    float: right;
+		    background-color: Lavender;
+		    width:55px;
+		    height: 55px;
+		    background-position: 9px;
+		    margin-left: 3px;
+		    border-radius: 8px;
+		  }
+		.wenzi{
+	   	    padding-top-top: -90px;
+		    text-align: center;
+		    height: 15px;
+		    color: red;
+		    font-size: 10px;
+		    position: relative;
+		    left: 550px;
+			}
+		.zuihou{
+		    width: 47px;
+		    height: 150px;
+		    background-color: #ffb6c1;
+		    text-align: center;
+		    font-size: 20px;
+		    color: #fff;
+		    padding-top: 3px;
+		    padding-bottom: 2px;
+		    margin: 0.5px;
+		    position: fixed;
+		    left:4;
+		    top:418px;
+ 		    }
+		.cute{
+			float: left;
+			position: relative;
+			margin-left: 1200px;
+		}
+		.lovely{
+			float: left;
+			position: relative;
+			margin-left: 1200px;
+		}
+    	.top{
+    		background-color: #bebbbb;
+    		top:30px;
+    		width:1800px;
+    		height: 40px;
+    		font-size: 15px;
+    		text-underline-position: none;
+    		background:repeat;
+    	}
+    	.a{
+    		height:30px;
+    		width:150px;
+    		margin-left: 20px;
+    		margin-top: 10px;
+    		position: relative;
+    	}
+    	.b{
+    		height:30px;
+    		width:260px;
+    		margin-left: 200px;
+    		margin-top: -30px;
+    		position: relative;
+    	}
+    	.c{
+    		height:30px;
+    		width:260px;
+    		margin-left: 420px;
+    		margin-top: -30px;
+    		position: relative;
+    	}
+    	.d{
+    		height:30px;
+    		width:260px;
+    		margin-left: 655px;
+    		margin-top: -30px;
+    		position: relative;
+    	}
+    	.biao{
+    		background-color: #b4c7c0;
+    		background: url(image/QQ.jpg);
+    		height:60px;
+    		width: 1550px;
+    		margin-left: 0px;
+    		margin-top: 3px;
+    		text-align: center;
+    		font-size: 30px;
+    	}
+    	.wu{
+    		width: 1550px;
+    		height: 15px;
+    		background-color: #f8d6d9;
+    	}
+    	.all{
+    		border-top: 20px solid #f8d6d9;
+			background: url(image/bj2.jpg);
+			margin-top: -30px;
+			height:2800px;
+		}
+    	.first{
+    		margin-left: 100px;
+    		margin-top: 50px;
+    		font-size: 15px;
+    		text-decoration-color: #ccc;
+    		height:426px;
+    		width: 695px;
+    	}
+    	.first img{
+    		width: 695px;
+    		height:426px;
+    	}
+    	.tion{
+    		margin-left: 930px;
+    		margin-top:-350px;
+    		font-size: 20px;
+    		line-height: 150%;
+    		text-decoration-color: #ccc;
+    		height:350px;
+    		width: 430px;
+    	}
+    	.piao{
+    		background: url(image/feng.png);
+    		position: absolute;
+			bottom: 144px;
+			height: 426px;
+			width: 695px;
+			padding-top:5px;/*
+			background-color: #bebbbb;*/
+			text-align: center;
+    	}
+    	.first:hover .piao{
+
+			display: block;
+			background-color: #bebbbb;
+			height:0px;
+			width: 698px;
+			opacity: 0.5;
+			text-align: center;
+			font-size: 45px;
+		}
+		/*.first:hover p:first-child{
+			margin-bottom: 30px;
+		}*/
+		.zi{
+			margin-top: 80px;
+			margin-left: 200px;
+			height:320px;
+			width: 1050px;
+			background-color: #edebd3;
+		}
+		.zi img{
+			width: 1050px;
+			height: 320px;
+		}
+		.one{
+			margin-top: 3px;
+			background-color: #edebd3;
+			border-bottom: 3px solid #aca5a5;
+			font-size: 20px;
+		}
+		.piao2{
+    		position: absolute;
+			bottom: -261px;
+			height: 320px;
+			width: 1050px;
+			padding-top:5px;
+			background-color: #bebbbb;
+			line-height: 150%;
+			font-size: 20px;
+			border-right: 3px solid #aca5a5;
+			border-left: 3px solid #aca5a5;
+    	}
+    	.piao2.one1{
+			margin-top: 10px;
+			margin-left: 20px;
+			line-height: 150%;
+			font-size: 25px;
+			width: 800px;
+			height: 350px;
+		}
+		.zi:hover .piao2{
+			display: none;
+			background-color: #bebbbb;
+			height:0px;
+			width: 698px;
+			opacity: 0.5;
+			text-align: center;
+			font-size: 15px;
+		}
+		.one img{
+			opacity: 0.5;
+		}
+		.boy{
+			width: 420px;
+			height: 410px;
+			margin-top: 100px;
+			margin-left: 200px;
+		}
+		.ming{
+			margin-top: 0px;
+			width: 130px;
+			height: 25px;
+		}
+		.zi2{
+			margin-top: -400px;
+			margin-left: 650px;
+			height:345px;
+			width: 530px;
+			line-height: 150%;
+			font-size: 20px;
+		}
+		.girl{
+			width: 0px;
+			height:345px;
+		}
+		.zi3{
+			margin-top: 150px;
+			margin-left: 150px;
+			height:230px;
+			width: 430px;
+			line-height: 150%;
+			font-size: 20px;
+		}
+		.tu2{
+			margin-top: -260px;
+			margin-left: 700px;
+			width: 120px;
+			height: 360px;
+		}
+		.la{
+			height: 80px;
+			width:1460px;/*
+			overflow: hidden;*/
+			display: inline-block;
+			position: relative;
+			margin-top:300px;
+			background-color: #ccc;
+			margin-left: 60px;
+			font-size:45px;
+		}
+		.last{
+			font-size: 60px;
+			text-align: center;
+			width: 580px;
+			height: 80px;
+			margin-top: 0px;
+			margin-left: 70px;
+		}
+		.b1{
+			width: 40px;
+			height:40px;
+			margin-top: -90px;
+			margin-left: 580px;
+		}
+
+    </style>
+</head>
+<body>
+	<div class="qq">
+		  <div class="emm"  style="position:fixed; left:0; top:127px;">
+		    <a href=" ">为爱打榜</a >
+		  </div>
+
+		  <div class="emm" style="position:fixed; left:0; top:185px;">
+		    <a href="#"><p>粉丝后援</p ></a >
+		  </div>
+
+		  <div class="emm" style="position:fixed; left:0; top:243px;">
+		    <a href="#">qq联系</a >
+		  </div>
+
+		  <div class="emm" style="position:fixed; left:0; top:301px;">
+		   <a href="#">微信联系</a >
+		 </div>
+
+		 <div class="emm" style="position:fixed; left:0; top:271px; top:359px;">
+		   <a href="#">刷刷刷</a >
+		   <div class="zuihou"><a href="#" style="color:#ff4500;">
+		    <p class="wenti">有问题</p >
+		    <ul>
+		      <li>请</li>
+		      <li>联</li>
+		      <li>系</li>
+		      <li>us</li>
+		    </ul>
+		  </a ></div></div></div>
+		  <div class="cute" style="position: fixed; right:0;top:-13px;">
+		  	<img src="image/cute.gif"/>
+		  </div>
+		  <div class="lovely" style="position: fixed; right:0;top:660px;">
+		  	<img src="image/lovely.gif"/>
+		  </div>
+		  <div class="b8" style="position: fixed; left:0;top:668px;">
+		  	<img src="image/b8.gif"/>
+		  </div>
+	<div class="top">
+		<div class="a" id="a"><a href="#"><font color="#403e3e">Back to first page</a></div>
+		<div class="b" id="b">introduction of the film</div>
+		<div class="c" id="c">introduction of the actor</div>
+		<div class="d" id="d">introduction of the actress</div>
+	</div>
+	<div class="biao">
+		国外电影欣赏
+	</div>
+	<div class="wu"></div>
+	<div class="all">
+		<div class="first">
+			<img src="image/2.jpg"/>
+			<div class="piao">
+			<p><a href="#"><font color="#403e3e">《怦然心动》</a></p>
+			<!-- <img src="C:\Users\dell\Desktop\web网站大作业\2.jpg"/> -->
+			</div>
+		</div>
+		<div class="tion">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《怦然心动》是由华纳兄弟影片公司出品，罗伯·莱纳执导，玛德琳·卡罗尔、卡兰·麦克奥利菲、艾丹·奎因等主演的爱情片。影片于 2010年8月6日在美国上映。</p><br/>
+
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该片根据文德琳·范·德拉安南的同名原著小说改编，描述了青春期中男孩女孩之间的有趣战争。</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牛只是一头牛，草地也只有青草和鲜花，而穿过树枝的阳光也仅仅只是一束光，但如果将它们放到一起，就会产生魔法一般的魅力。</p>
+
+
+		</div>
+		<div class="zi">
+			<div class="tu"><img src="image/3.jpg"></div>
+				<div class="piao2">
+					<div class="one">剧情简介</div>
+					<div clss="one1">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朱莉·贝克虔诚地相信三件事：树是圣洁的（特别是她最爱的梧桐树）、她在后院里饲养的鸡生出来的鸡蛋是最卫生的、以及总有一天她会和布莱斯·罗斯基接吻。二年级时在看到布莱斯的蓝眼睛那一瞬间，朱莉的心就被他击中了。不幸的是，布莱斯对她从来没有感觉。而且，他认为朱莉有点怪，怎么会有人把养鸡和坐在树下看成乐趣呢？</p><br/>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　没想到，到了八年级，布莱斯开始觉得朱莉不同寻常的兴趣和对于家庭的自豪感使她显得很有魅力。而朱莉则开始觉得布莱斯漂亮的蓝眼睛也许和他本人一样其实很空洞，毕竟，怎么会有人不把别人对树和鸡的感情当回事呢？</p><br/>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一幅画不是众多物件简单拼凑而成的。牛只是一头牛，草地也只有青草 和鲜花，而穿过树枝的阳光也仅仅只是一束光，但如果将它们放到一起，就会产生魔一般的魅力。</p></div>			
+			</div>
+		</div>
+		<div class="boy" id="boy">
+			<p>这张为《怦然心动》男主角其中剧照</p>
+			<img src="image/1.jpg"/>
+			<div class="ming">
+			<a href="https://baike.sogou.com/v62930207.htm?fromTitle=卡兰·麦克奥利菲"><!-- <font color="white"> -->卡兰·麦克奥利菲</font></a></div>
+			<div class="zi2">
+				<p>卡兰·麦克奥利菲（Callan McAuliffe，1995年1月24日-），出生于澳大利亚悉尼，澳大利亚男演员。其代表作品有《怦然心动》、《变装酷童》、《关键第四号》。</p>
+
+				<p>卡兰·麦克奥利菲从八岁时开始演戏。2007年，在澳大利亚电视台拍摄的连续剧《Comedy Inc.》和《Blue Water High》中亮相，并引起了强烈的反响。2010年主演电影处女作《怦然心动》。2011年，在科幻电影《关键第四号》中饰演Sam。2014年，他和英迪娅·埃斯利一起主演了电影《少女杀手》。</p>
+
+				<p>2018年10月7日，参演的电视剧《行尸走肉第九季》在美国首播。</p>
+			</div>
+		</div>
+		<div class="girl" id="girl">
+			<div class="zi3">
+			<p>玛德琳·卡罗尔[1]（Madeline Carroll，1996年3月18日-），美国女演员、模特，出生于美国洛杉矶。2003年，出演第一部电视剧《铁证悬案》而正式开始演艺生涯。2009年，凭借电影《关键投票》获青年艺术奖故事片最佳年轻女主角提名。出演作品还有《邻家特工》《贝拉的魔法》《生化危机3》等。</p></div>
+			<div class="tu2">
+				<img src="image/n.jpg"/>
+				<div class="ming2">
+				<a href="https://baike.sogou.com/v7983639.htm">玛德琳·卡罗尔</font></a></div>
+			</div>
+		</div>
+		<div class="la" id="la">
+			
+				<div class="word" style="left:100px;position:absolute;width:500px;" id="word">
+					<img style="float:right;" src="image/b1.jpg"/>
+				<p sytle="font-size:50px;text-align:center;height:100px;"> 欢迎大家前来观看！</p>
+				</div>
+			
+				
+		</div>
+	</div>
+	<script type="text/javascript">
+		var last = document.getElementById('last');
+		var word = document.getElementById('word');
+		var timer;
+		var isMoving = false;
+		function getStyle(obj, attr){
+		if(obj.currentStyle){
+			return obj.currentStyle[attr];
+		} else {
+			return getComputedStyle(obj, null)[attr];
+		}
+	}
+	
+		setInterval("fun()",30);
+		function fun(){
+			var aa = parseInt(getStyle(word,'left'));
+			word.style.left = aa + 4 +"px";
+			if(aa == 800){
+				word.style.left = -500+"px";
+			}
+			
+		}
+	</script>
+</body>
+<html>
