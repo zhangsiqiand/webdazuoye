@@ -1,0 +1,570 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>团队作业</title>
+    <style type="text/css">
+     * {
+      padding: 0;
+      margin: 0;
+    }
+    li{
+      list-style:none;
+    }
+    a{
+      text-decoration: none;
+    }
+    .head
+    {
+      width:1428px;
+      height: 45px;
+      background-color: pink;
+      margin: 0px auto;
+    }
+    .zc{
+      float:right;
+      height: 12px;
+      margin-bottom: 14px;
+      margin-top: 17px;
+      margin-left: 15px;
+      margin-right: 114px;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .dl{
+      float: right;
+      height: 12px;
+      padding-bottom: 5px;
+      margin-top: 17px;
+      padding-right: 15px;
+      margin-left: 44px;
+      color: #ffffff;
+      font-size: 20px;
+      border-right:solid #9f9f9f 2px;
+    }
+
+    .dianhua{
+      float: right;
+      font-size: 25px;
+      color: #ffffff;
+      padding-bottom: 5px;
+      padding-top: 13px;
+      padding-left: 13px;
+    }
+    .head2
+    {
+      width:1428px;
+      height: 79px;
+      border-top:5px solid white;
+      margin: 0px auto;
+      background-color: #FFCBA4;
+    }
+    .shouye{
+      float: right;
+      padding-right: 400px;
+    }
+    .head2> img{
+      padding-top: 14px;
+      padding-left: 110px;
+    }
+    .shouye li{
+      color: #000000;
+      margin-left: 16px;
+      margin-right: 16px;
+      font-size: 20px;
+      width:97px;
+      height: 75px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      line-height: 75px;
+    }
+    .shouye li:hover{
+      color: #e8420a;
+      border-bottom: solid 4px;
+    }
+    .zuoshang{
+      width:1428px;
+      height: 90px;
+      margin: 0 auto;
+      background:#f5f5f5;
+    }
+    .zuoshangp{
+      padding-left: 130px;
+      padding-top: 30px;
+      padding-bottom: 36px;
+      font-size: 30px;
+    }
+    .pic
+    {
+      height: 574px;
+      width: 1200px;
+      margin: 0 auto;
+      background:#eeeeee;
+    }
+    .pic img{
+      float:left;
+      padding-top:15px; 
+      padding-left:15px;
+      padding-bottom:5px;
+    }
+    .jieshao ul
+    {
+     font-size: 20px; 
+     color: #666666;
+     padding-right: 25px;
+     float: right;
+     width: 470px;
+     height: 574px;
+   }
+   .jieshao ul li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 32px;
+
+  }
+  .emm{
+    float: right;
+    background-color: Lavender;
+    width:55px;
+    height: 55px;
+    background-position: 9px;
+    margin-left: 3px;
+    border-radius: 8px;
+  }
+  .zuihou{
+    width: 47px;
+    height: 150px;
+    background-color: #ffb6c1;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin: 0.5px;
+    position: fixed;
+    left:4;
+    top:418px;
+  }
+
+  
+  .dong{
+    width: 900px;
+    height: 28px;
+
+    left: 275px;
+    overflow: hidden;
+    font-size: 10px;
+    margin-top:-90px;
+
+  }
+  .zizi{
+    font-size: 17px;
+    color: red;
+  }
+
+  .wenzi{
+    padding-top-top: -90px;
+    text-align: center;
+    height: 15px;
+    color: red;
+    font-size: 10px;
+    position: relative;
+    left: 550px;
+
+  }
+  .wenti{
+    font-size: 13px;
+  }
+  .sousuo{
+    height: 30px;
+    width: 150px;
+    margin-left: 70px;
+    margin-bottom: 1055px;
+    background-color: white;
+    border-color: pink;
+  }
+  .ssz{
+    margin-left: 1100px;
+    margin-top: -30px;
+  }
+  .ssss{
+    margin-left: 1105px;
+    font-size: 16px;
+    color: black;
+  }
+  .head li:hover{
+    color: #00E3E3;
+  }
+  .box{
+    width:500px;
+    height:300px;
+    border:1px solid white;
+    margin:100px auto;
+    position: relative;
+    overflow: hidden;
+    margin-left: 3px;
+  }
+
+  .slider{
+    width:8400px;
+    position: absolute;
+    left:-80px;
+  }
+  .slide{
+    width:1200px;
+    position: hidden;
+    float:left;
+  }
+  .box>span{
+    display: block;
+    width:30px;
+    height:50px;
+    text-align: center;
+    cursor: pointer;
+    color:;
+    top:175px;
+    line-height: 50px;
+    background: rgb(255,0,0);
+    font-size: 30px;
+    position: absolute;
+    opacity: 0; 
+  }
+  #left{
+    left:30px;
+  }
+  #right{
+    right:30px;
+  }
+  .nav{
+    position: absolute;
+    left: 500px;
+    bottom:-50px;
+  }
+  .nav>li{
+    float:left;
+    width:20px;
+    height:20px;
+    background: #ccc;
+    cursor: :pointer;
+    margin:0 10px;
+    border-radius: 100%;
+  }
+  .nav .active{
+    background:red;
+  }
+
+  .genxin{
+    margin-left: 700px;
+    margin-top: -400px;
+  }
+
+  .genxin ul li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 32px;
+    font-size: 20px;
+
+  }
+  .xt{
+    padding-top: 60px;
+  }
+
+
+  .dianying{
+    width:130px;
+    height: 80px;
+    margin-top: -15px;
+  }
+
+  .one{
+    width: 245px;
+    height: 200px;
+  }
+  .bt1{
+    width: 60px;
+    height: 30px;
+    background-color: Lavender;
+    font-size: 17px;
+    border:10px black soild;
+  }
+
+  .cute{
+   float: left;
+   position: relative;
+   margin-left: 1200px;
+   margin-top: -80px;
+ }
+
+</style>
+<script src="animate.js"></script>
+</head>
+<body>
+
+  <div  style="width:1600px; height:1300px; background:url(top.jpeg);">
+
+    <div class="head">
+
+      <a href="#" class="zc"></a>
+      <a href="#" class="dl"><li onclick="join()" id="join">请登录或注册</li></a>
+      <p class="dianhua">xxxx-xxx-xx-x</p>
+
+    </div>
+    <div class="head2">
+
+      <img src="imgs/dianying.jpg" class="dianying"/>
+
+
+      <div class="cute" style="position: fixed; right:0;">
+       <img src="imgs/cute.gif"/>
+     </div>
+
+     <ul class="shouye">
+      <a href="#"><li onclick="tuijian()">推荐</li></a>
+      <a href="#"><li onclick="shizong()">热点</li></a>
+      <a href="#"><li onclick="guonei()">国内电影</li></a>
+      <a href="#"><li onclick="tiaozhuan()">国外电影</li></a>
+      <a href="#"><li onclick="shizong()">VIP专属</li></a>
+    </ul>
+
+  </div>
+  <div class="zuoshang">
+   <p class="zuoshangp">欢迎大家来到电影世界</p>
+
+   <div class="dong">
+    <div class="wenzi" id="wenzi">
+      <p class="zizi">本网站无广告，如发现付费项目，欢迎举报，电话：无</p>
+    </div>
+
+  </div>
+  <div class="ssss">
+    <button onclick="sousuo()" class="bt1">搜索</button>
+  </div>
+
+  <div class="ssz">
+    <input type="text" value"serach" class="sousuo" id="sousuoa" />
+  </div>
+
+</div>
+<div class="pic">
+
+  <div class="box" id="box">
+    <div class="slider" id="slider">
+      <div class="slide"><img src="imgs/5.jpeg" onclick="shizong()"></div>
+      <div class="slide"><img src="imgs/1.jpg" onclick="shizong()"></div>
+      <div class="slide"><img src="imgs/2.jpg" onclick="tiaozhuan()"></div>
+      <div class="slide"><img src="imgs/3.jpeg" onclick="guonei()"></div>
+      <div class="slide"><img src="imgs/4.jpg" onclick="shizong()"></div>
+      <div class="slide"><img src="imgs/5.jpeg" onclick="shizong()"></div>
+      <div class="slide"><img src="imgs/1.jpg" onclick="shizong()"></div>
+    </div>
+    <span id="left"><</span>
+    <span id="right">></span>
+    <ul class="nav" id="nav">
+      <li class="active"><p class="number"></p></li>
+      <li><p class="number"></p></li>
+      <li><p class="number"></p></li>
+      <li><p class="number"></p></li>
+      <li><p class="number"></p></li>
+    </ul>
+
+  </div>
+onclick="shizong()"
+  <div class="genxin">
+    <ul>
+      <li style="font-size:30px; color:#000; padding-top:-60px;padding-bottom:35px;" onclick="tuijian()">
+       本周推荐</li>
+       <li >日本《你的名字》</li>
+       <li onclick="tiaozhuan()">青春期的《怦然心动》</li>
+       <li onclick="guonei()">千玺作品《少年的你》</li>
+       <li onclick="shizong()">李安经典作品《断背山》</li>
+       <li onclick="shizong()">祖国70周年《我和我的祖国》</li>
+     </ul>
+   </div>
+
+   <div class="jieshao">
+    <ul>
+      <li style="font-size:30px; color:#000; padding-top:-10px;padding-bottom:35px;">
+       热剧先看</li>
+       <li>惊！无名演员参演这部电影，获戛纳奖...</li>
+       <li>重温去年夏天的感动</li>
+       <li>"穿越"的范闲</li>
+       <li>今年大火限定！！</li>
+       <li>跨越十年的约定</li>
+     </ul>
+   </div>
+   <div class = "xt">
+     <img src="imgs/6.jpeg"  style="padding-bottom:16px;padding-right:15px;padding-right:2px;" class = "one" id="one" >  
+     <img src="imgs/7.jpeg"  style="padding-bottom:16px;padding-left:2px;padding-right:2px;" class = "one"   id ="one">
+</div>
+ </div>
+ <div class="qq">
+  <div class="emm"  style="position:fixed; left:0; top:127px;">
+    <a href="#">为爱打榜</a>
+  </div>
+
+  <div class="emm" style="position:fixed; left:0; top:185px;">
+    <a href="#"><p>粉丝后援</p></a>
+  </div>
+
+  <div class="emm" style="position:fixed; left:0; top:243px;">
+    <a href="#">qq联系</a>
+  </div>
+
+  <div class="emm" style="position:fixed; left:0; top:301px;">
+   <a href="#">微信联系</a>
+ </div>
+
+ <div class="emm" style="position:fixed; left:0; top:271px; top:359px;">
+   <a href="#">刷刷刷</a>
+   <div class="zuihou"><a href="#" style="color:#ff4500;">
+    <p class="wenti">有问题</p>
+    <ul>
+      <li>请</li>
+      <li>联</li>
+      <li>系</li>
+      <li>us</li>
+    </ul>
+  </a>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+
+  var zong=setInterval(function move(){
+    var wenzi=document.getElementById("wenzi");
+    var a=parseInt(getComputedStyle(wenzi).left);
+    wenzi.style.left=a+-7+"px";
+    if(a<180){
+      wenzi.style.left="700px";
+    }
+  },120)
+
+
+
+  function join(){
+   var join=document.getElementById("join");
+   alert("你确定？");
+ }
+ var box = document.getElementById('box');
+ var oNavlist = document.getElementById('nav').children;
+ var slider = document.getElementById('slider');
+ var left = document.getElementById('left');
+ var right = document.getElementById('right');
+ var index = 1;
+ var timer;
+ var isMoving = false;
+
+ function next(){
+
+  if(isMoving){
+    return;
+  }
+  isMoving = true;  
+  index++;
+  navChange();
+  animate(slider,{left:-1200*index},function(){
+    if(index>5){
+      slider.style.left="-1200px";
+      index = 1;
+    }
+    isMoving = false;
+  });
+}
+
+
+function prev(){
+  if(isMoving){
+    return;
+  }
+  isMoving=true;
+  index--;
+  navChange();
+  animate(slider,{left:1200*index},function(){
+    if(index==0){
+      slider.style.left='-6000px';
+      index=5;
+    }
+    isMoving=false;
+  });
+}
+
+var timer = setInterval(next,2000);
+
+box.onmouseover = function(){
+  animate(left,{opacity:50});
+  animate (right,{opacity:50});
+  clearInterval(timer);
+}
+box.onmouseout = function(){
+  animate(left,{opacity:0});
+  animate (right,{opacity:0});
+  timer = setInterval(next,2000);
+}
+
+right.onclick = next;
+left.onclick = prev;
+
+    //小按钮点击事件
+    for(var i=0;i<oNavlist.length;i++){
+      oNavlist[i].index =i;
+      oNavlist[i].onclick = function(){
+        index=this.index+1;
+        navChange();
+        animate(slider,{left:-1200*index});
+      }
+    }
+    //小按钮背景切换
+    function navChange(){
+      for(var i=0;i<oNavlist.length;i++){
+        oNavlist[i].className='';
+      }
+      if(index===6){
+        oNavlist[0].className="active";
+      }else if(index===0){
+        oNavlist[index-1].className="active";
+      }
+      else{
+        oNavlist[index-1].className="active";
+      }
+    }
+
+    function tiaozhuan(){
+      window.location="lixinyude.html";
+    }
+
+    function tuijian(){
+      window.location="qingwebDwork.html";
+    }
+     function guonei(){
+      window.location="作业3.html";
+    }
+
+    function shizong(){
+      window.location="404页面.html";
+    }
+
+    function sousuo(){
+      var ss=document.getElementById("sousuoa").value;
+      var a="怦然心动";
+      var b="受益人";
+      var c="半个喜剧";
+      var d="少年的你"
+      if(ss==a){
+        window.location="lixinyude.html";
+      }if(ss==b){
+         window.location="qingwebDwork.html";
+      }if(ss==c){
+         window.location="qingwebDwork.html";
+      }if(ss==d){
+         window.location="作业3.html";
+      }else{
+        window.location="404页面.html";
+      }
+    }
+
+  </script>
+</body>
+</html>
