@@ -1,0 +1,121 @@
+*{
+	margin: 0 auto;
+	padding:0 auto;
+}
+img{
+	margin:0;
+	padding: 0;
+}
+h1{
+	margin-top: 18px;
+}
+h2{
+	margin-top: 15px;
+}
+body{
+	background-image: url(qingtu/花.jpg);
+}
+.top{
+	border: 1px solid red;
+	padding-left: 600px;
+	margin: 0 auto;
+	height: 80px;
+	background-color: orange;
+}
+#top1{
+	width: 800px;
+	height: 350px;
+	border: 1px solid red;
+	top:300px;
+	left:200px;
+	margin-top: -130px;
+	position: absolute;
+	overflow: hidden;
+}
+#top2{
+	position:absolute;
+	width: 5600px;
+	left: -800px;
+}
+.lunbo{
+	margin: 0 0px;
+	width: 800px;
+	float: left;
+}
+#top1>span{
+	display: block;
+	position: absolute;
+	float: left;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 60px;
+	width: 80px;
+	height: 80px;
+	top:150px;
+	background: gray;
+	line-height: 60px;
+	opacity: 0.3;
+}	
+#right{
+	left:720px;
+}
+#mo{
+	position: absolute;
+	top: 560px;
+}
+#mo>h1{
+	font-size:20px;
+}
+.tu1{
+	position: relative;
+	display: inline-block;
+	top:450px;
+	left: 120px;
+}
+#mo2{
+	height: 100px;
+	width: 150px;
+	position: absolute;
+	margin-top: 500px;
+	font-size: 25px;
+}
+#wei{
+	position: absolute;
+	margin-top: 600px;
+	font-size:30px;
+	left: 600px;
+}
+#wei1{
+	position: absolute;
+	margin-top: 10px;
+	width: 1000px;
+	height: 200px;
+	left: 0px;
+	display: block;
+	font-size: 20px;
+}
+#tu2{
+	position: relative;
+	margin-top: 650px;
+	left:200px;
+}
+#tuz{
+	position:absolute;
+	width: 440px;
+	height: 400px;
+	left: 500px;
+	top:0px;
+	
+
+}
+.tu3{
+	position:absolute;
+	display: inline-block;
+	border: 0px;
+}
+.tu4{
+	float: left;
+	position:relative;
+	top:233px;
+}

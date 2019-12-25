@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>热点电影</title>
+	<link rel="stylesheet" type="text/css" href="qingDwork1.css">
+	<script src="animate1.js"></script>
+</head>
+<body>
+	<div class="top" style="background-color:pink;">
+	<h1>热点电影</h1>
+</div>
+<div class="top"><h2>今日热点推荐</h2></div>
+<div id="top1">
+	<div id="top2">
+		<div class="lunbo"><img src="qingtu/半个喜剧op1.jpg"></div>
+		<div class="lunbo"><img src="qingtu/冰雪奇缘2op1.jpg"></div>
+		<div class="lunbo"><img src="qingtu/受益人op1.jpg"></div>
+		<div class="lunbo"><img src="qingtu/误杀op1.jpg"></div>
+		<div class="lunbo"><img src="qingtu/勇敢者游戏2op1.jpg"></div>
+		<div class="lunbo"><img src="qingtu/半个喜剧op1.jpg"></div>
+		<div class="lunbo"><img src="qingtu/冰雪奇缘2op1.jpg"></div>
+	</div>
+	<span id="left"><</span>
+	<span id="right">></span>
+</div>
+<div id="mo"><h1>最热>>></h1></div>
+<div id="mo1">
+		<div class="tu1"><img src="qingtu/半个喜剧.jpg"></div>
+		<div class="tu1"><img src="qingtu/被光抓走的人.jpg"></div>
+		<div class="tu1"><img src="qingtu/南方车站的聚会.jpg"></div>
+		<div class="tu1"><img src="qingtu/误杀.jpg"></div>
+		<div class="tu1"><img src="qingtu/勇敢者游戏2：再战巅峰.jpg"></div>
+		<div class="tu1"><img src="qingtu/只有芸知道.jpg"></div>
+		<div class="tu1" style="top:200px"><p>更多>>></p></div>
+	</div>
+	<div id="mo2">热门电影介绍</div>
+	<div id="wei">少年的你</div>
+	<div id="tu2"><img src="qingtu/少年的你.jpg">
+	<div id="tuz">
+	<div class="tu3"><img src="qingtu/D.jpg"></div>
+	<div class="tu4"><img src="qingtu/d1.jpg"></div>
+	<div class="tu4"><img src="qingtu/d2.jpg"></div>
+	<div class="tu4"><img src="qingtu/d3.jpg"></div>
+	</div>
+	<div id="wei1"><p><span style="font-size: 25px">剧情简介：</span>一场高考前夕的校园意外，改变了两个少年的命运。</p>
+		<p>陈念（周冬雨饰）性格内向，是学校里的优等生，努力复习、考上好大学是高三的她唯一的念头。同班同学的意外坠楼牵扯出一连串不为人知的故事，陈念也被一点点卷入其中…在她最孤独的时刻，一个叫小北（易烊千玺饰）的少年闯入了她的世界…</p>
+		<p>大多数人的18岁都是明媚、快乐的，而他们却在18岁这个夏天提前尝到了成人世界的漠然。一场秘而不宣的“战斗”正在上演，他们将一起守护少年的尊严 。</p>
+	</div>
+<script type="text/javascript">
+var left=document.getElementById('left');
+var right=document.getElementById('right');
+var index=1;
+function next(){
+index++;
+animate(top2,{left:-800*index},function(){
+
+	if(index===5){
+		top2.style.left="-800px";
+		index=1;
+	}
+});
+}
+function qian(){
+index--;
+animate(top2,{left:-800*index},function() {
+	if (index===0) {
+		top2.style.left="-4000px";
+		index=5;
+	}
+});
+}
+right.onclick=next;
+left.onclick=qian;
+</script>
+</body>
+</html>
